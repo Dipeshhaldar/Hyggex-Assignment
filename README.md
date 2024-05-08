@@ -10,9 +10,9 @@ To set up this repository, follow these steps:
 2. **Install all the dependencies**
    ```bash
    npm install
-3. Go into the directory
+3. **Go into the directory**
    ```bash
    cd folder-name
-4. Run the server
+4. **Run the server**
    ```bash
    npm run dev
