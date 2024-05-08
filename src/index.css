@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-gradient {
+  border-width: 2px; 
+  border-style: solid;
+  padding: 0.5em 1em;
+  border-radius: 0.5rem; 
+  border-color: #217EEC;
+  width: 44rem;
+}
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px; 
+  background-color: blue; 
+}
+
+.active {
+  color: blue;
+}
+
+@media screen and (max-width: 640px) {
+  .border-gradient {
+    width: 18rem;
+  }
+}
+
+
